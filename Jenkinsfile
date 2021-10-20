@@ -13,7 +13,7 @@ node {
     stage('Build') {
         // Run the maven build
         // sh "mvn clean verify -Dmaven.test.failure.ignore=true"
-        sh "mvn -X clean verify"
+        sh "mvn clean verify"
     }
 
     stage('Analysis') {
